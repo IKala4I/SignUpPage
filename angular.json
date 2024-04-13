@@ -33,7 +33,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "sp",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
