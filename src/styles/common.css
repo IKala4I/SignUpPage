@@ -1,3 +1,6 @@
 body{
   background: var(--bg);
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
 }
