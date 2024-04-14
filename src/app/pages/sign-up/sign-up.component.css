@@ -5,9 +5,18 @@
 }
 
 .container{
-  position:absolute;
-  left:25%;
-  top:25%;
-  height:50vh;
-  width:800px;
+  height: 65vh;
+  width: clamp(280px, 800px, 60vw);
+  margin: 0 auto;
+  position: relative;
+  top: 15%;
+  display: flex;
+}
+
+sp-sidebar{
+  flex: 1 0 35%;
+}
+
+sp-main{
+  flex: 1 0 65%;
 }
